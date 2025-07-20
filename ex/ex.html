@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="ex1-1.js" defer></script>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    li {
+      list-style: none;
+      margin-left: 50px;
+    }
+    ul {
+      width: 300px;
+      height: 500px;
+      outline: 2px solid #000;
+      /* background: url(ds.jpg); */
+    }
+    li {
+      text-align: center;
+      width: 150px;
+      height: 150px;
+      line-height: 150px;
+    }
+  </style>
+  <body>
+    <ul class="overlay" data-bg="ds.jpg">
+      <li><a href="" class="item" data-bg="1_t.jpg">menu1</a></li>
+      <li><a href="" class="item" data-bg="artist1.jpg">menu2</a></li>
+      <li><a href="" class="item" data-bg="artist5.jpg">menu3</a></li>
+    </ul>
+  </body>
+</html>
